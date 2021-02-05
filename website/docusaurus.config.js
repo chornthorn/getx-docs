@@ -2,10 +2,10 @@ module.exports = {
   title: 'Flutter Starter Dev',
   tagline: 'A simple open source for Flutter Application',
   url: 'https://chornthorn.github.io',
-  baseUrl: '/flutter-starter/',
+  baseUrl: '/docs/',
   favicon: 'img/favicon/Comupter.ico',
   organizationName: 'chornthorn',
-  projectName: 'flutter-starter',
+  projectName: 'docs',
   themeConfig: {
     image: 'img/icons8-flutter.svg',
     metadatas: [{ name: 'twitter:card', content: 'summary' }],
@@ -34,7 +34,7 @@ module.exports = {
         },
         {
           label: 'GitHub',
-          href: 'https://github.com/Flutter-Starter-Dev/Flutter-Starter-Dev',
+          href: 'https://github.com/chornthorn/flutter-starter',
           position: 'right'
         },
         {
