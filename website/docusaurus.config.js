@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Flutter Starter Dev',
   tagline: 'A simple open source for Flutter Application',
-  url: 'https://github.com/chornthorn',
+  url: 'https://chornthorn.github.io',
   baseUrl: '/',
   favicon: 'img/favicon/Comupter.ico',
-  organizationName: 'reduxjs',
-  projectName: 'redux',
+  organizationName: 'chornthorn',
+  projectName: 'chornthorn.github.io',
   themeConfig: {
     image: 'img/icons8-flutter.svg',
     metadatas: [{ name: 'twitter:card', content: 'summary' }],
