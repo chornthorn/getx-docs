@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Thorn's Document",
+  title: "Flutter Starter Dev",
   tagline: 'A simple open source for Flutter Application',
   url: 'https://chornthorn.github.io',
   baseUrl: '/docs/',
@@ -10,13 +10,14 @@ module.exports = {
     image: 'img/icons8-flutter.svg',
     metadatas: [{ name: 'twitter:card', content: 'summary' }],
     prism: {
-      theme: require('./src/js/monokaiTheme.js')
+      // theme: require('./src/js/monokaiTheme.js')
+      theme: require('prism-react-renderer/themes/dracula'),
     },
     colorMode: {
       disableSwitch: false
     },
     navbar: {
-      title: "Thorn's Document",
+      title: "Flutter Starter Dev",
       logo: {
         alt: 'Flutter Logo',
         src: 'img/icons8-google-code.svg'
@@ -29,7 +30,12 @@ module.exports = {
         },
         {
           label: 'Tutorial',
-          to: 'tutorials/flutter/essentials/part-1-overview-concepts',
+          to: 'tutorials/index',
+          position: 'right'
+        },
+        {
+          label: 'Blog',
+          to: 'blog/index',
           position: 'right'
         },
         {
@@ -56,7 +62,7 @@ module.exports = {
             },
             {
               label: 'Tutorial',
-              to: 'tutorials/flutter/essentials/part-1-overview-concepts'
+              to: 'tutorials/index'
             }
           ]
         },
@@ -83,7 +89,7 @@ module.exports = {
             {
               label: 'GitHub',
               href: 'https://github.com/chornthorn/docs'
-            },
+            }
           ]
         }
       ],
@@ -95,8 +101,8 @@ module.exports = {
       copyright: `Copyright © 2021–${new Date().getFullYear()} Bong Thorn documentation authors.`
     },
     algolia: {
-      apiKey: '518c6e3c629811d8daa1d21dc8bcfa37',
-      indexName: 'redux',
+      apiKey: 'c69d75c054317c41a123ab6315f31e0f',
+      indexName: 'dev_flutter_starter_dev',
       algoliaOptions: {}
     },
     googleAnalytics: {

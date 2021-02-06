@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Get Started
+title: Functions Overview
 description: 'Introduction > Getting Started: Resources to get started learning and using Redux'
 hide_title: true
 ---

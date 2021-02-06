@@ -3,7 +3,7 @@ id: get-started
 title: Get Started
 description: 'Introduction > Getting Started: Resources to get started learning and using Redux'
 hide_title: true
-sidebar_label: Get Started
+sidebar_label: Overview
 ---
 
 # Flutter State Management

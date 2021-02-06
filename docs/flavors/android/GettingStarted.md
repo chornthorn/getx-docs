@@ -1,15 +1,11 @@
 ---
 id: intro
-title: Bloc Overview
+title: Android
 description: 'Introduction > Getting Started: Resources to get started learning and using Redux'
 hide_title: true
 ---
 
-# State Management: BLoc Pattern
-
-:::tip Tip
-Heads up! Here's a pro-tip.
+# Flutter flavor on Android
+:::tip WHAT YOU'LL LEARN
+- Configuration on android native layer 
 :::
-
-## Should You Use Flutter?
-

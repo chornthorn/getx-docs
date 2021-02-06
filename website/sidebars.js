@@ -1,11 +1,11 @@
 module.exports = {
   docs: {
-    Introduction: [
+    "Getting Started": [
       'introduction/getting-started',
       'introduction/installation'
     ],
-    Tutorials: [
-      'tutorials/tutorials-index',
+    "Flutter Tutorials": [
+      'tutorials/index',
       {
         type: 'category',
         label: 'Flutter Essentials',
@@ -14,7 +14,7 @@ module.exports = {
         ]
       }
     ],
-    Firebase: [
+    "Flutter Firebase": [
       'firebases/firebase-index',
       {
         type: 'category',
@@ -27,7 +27,7 @@ module.exports = {
         type: 'category',
         label: 'Cloud Firestore',
         items: [
-          'firebases/cloud-firestores/cloud-firebase'
+          'firebases/cloud-firestore/cloud-firestore'
         ]
       },
       {
@@ -46,9 +46,9 @@ module.exports = {
       },
       {
         type: 'category',
-        label: 'Cloud Store',
+        label: 'Cloud Storage',
         items: [
-          'firebases/cloud-store/intro'
+          'firebases/cloud-storage/intro'
         ]
       },
       {
@@ -59,7 +59,7 @@ module.exports = {
         ]
       }
     ],
-    StateManagement: [
+    "State Management": [
       'state-managements/get-started',
       {
         type: 'category',
@@ -82,6 +82,26 @@ module.exports = {
           'state-managements/flutter-getx/intro'
         ]
       }
-    ]
+    ],
+    "Flutter Flavor": [
+      'flavors/index',
+      {
+        type: 'category',
+        label: 'Android',
+        items: [
+          'flavors/android/intro'
+        ]
+      },
+      {
+        type: 'category',
+        label: 'IOS',
+        items: [
+          'flavors/ios/intro'
+        ]
+      }
+    ],
+    "Blog Post": [
+      'blog/index'
+    ],
   }
 }

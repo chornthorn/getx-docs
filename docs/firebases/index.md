@@ -1,13 +1,13 @@
 ---
 id: firebase-index
 slug: index
-title: 'Firebase Tutorials Index'
-sidebar_label: 'Firebase Index'
+title: 'Firebase Tutorials Overview'
+sidebar_label: 'Firebase Overview'
 hide_title: true
-description: 'Overview of the Redux tutorial pages'
+description: 'Overview of the firebase tutorial pages'
 ---
 
-# Firebase Tutorials Index
+# Firebase Tutorials Overview
 
 We have two different sets of tutorials:
 

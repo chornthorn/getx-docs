@@ -1,6 +1,6 @@
 ---
 id: getting-started
-title: Getting Started with Flutter
+title: Overview
 description: 'Introduction > Getting Started: Resources to get started learning and using Redux'
 hide_title: true
 ---
