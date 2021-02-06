@@ -16,6 +16,14 @@ module.exports = {
     colorMode: {
       disableSwitch: false
     },
+    announcementBar: {
+      id: 'support_us', // Any value that will identify this message.
+      content:
+          '⭐️ If you like This Document, give it a star on GitHub! ⭐️',
+      backgroundColor: '#ffffff', // Defaults to `#fff`.
+      textColor: '#000000', // Defaults to `#000`.
+      isCloseable: false, // Defaults to `true`.
+    },
     navbar: {
       title: "Flutter Starter Dev",
       logo: {
@@ -114,7 +122,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          path: '../docs',
+          path: 'docs',
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js')
         },
