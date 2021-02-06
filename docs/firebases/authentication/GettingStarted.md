@@ -1,11 +1,11 @@
 ---
-id: getting-started
-title: Getting Started with Flutter
+id: authentication
+title: Get Started
 description: 'Introduction > Getting Started: Resources to get started learning and using Redux'
 hide_title: true
 ---
 
-# Getting Started with Flutter
+# Getting Started with Firebase with Flutter
 
 Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for Mobile, Web and Desktop from a single codebase.
 

@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Flutter Starter Dev',
+  title: "Thorn's Document",
   tagline: 'A simple open source for Flutter Application',
   url: 'https://chornthorn.github.io',
   baseUrl: '/docs/',
@@ -16,7 +16,7 @@ module.exports = {
       disableSwitch: false
     },
     navbar: {
-      title: 'Flutter Starter Dev',
+      title: "Thorn's Document",
       logo: {
         alt: 'Flutter Logo',
         src: 'img/icons8-google-code.svg'
@@ -34,7 +34,7 @@ module.exports = {
         },
         {
           label: 'GitHub',
-          href: 'https://github.com/chornthorn/flutter-starter',
+          href: 'https://github.com/chornthorn',
           position: 'right'
         },
         {
@@ -82,7 +82,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Flutter-Starter/Flutter-Starter-Dev'
+              href: 'https://github.com/chornthorn/docs'
             },
           ]
         }
@@ -90,9 +90,9 @@ module.exports = {
       logo: {
         alt: 'Flutter Starter Dev Logo',
         src: 'img/icons8-google-code-bottom.svg',
-        href: 'https://redux.js.org/'
+        href: 'https://github.com/chornthorn/docs'
       },
-      copyright: `Copyright © 2021–${new Date().getFullYear()} Bong Thorn and the Flutter Starter Dev documentation authors.`
+      copyright: `Copyright © 2021–${new Date().getFullYear()} Bong Thorn documentation authors.`
     },
     algolia: {
       apiKey: '518c6e3c629811d8daa1d21dc8bcfa37',
@@ -100,7 +100,7 @@ module.exports = {
       algoliaOptions: {}
     },
     googleAnalytics: {
-      trackingID: 'UA-130598673-1'
+      trackingID: 'UA-160925128-1'
     }
   },
   presets: [

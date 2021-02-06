@@ -1,13 +1,13 @@
 ---
 id: tutorials-index
 slug: index
-title: 'Redux Tutorials Index'
+title: 'Flutter Tutorials Index'
 sidebar_label: 'Tutorials Index'
 hide_title: true
 description: 'Overview of the Redux tutorial pages'
 ---
 
-# Redux Tutorials Index
+# Flutter Tutorials Index
 
 We have two different sets of tutorials:
 
