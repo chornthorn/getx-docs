@@ -2,10 +2,10 @@ module.exports = {
   title: "Flutter GetX",
   tagline: 'Fast, Stable, Extra-light and Powerful Flutter Framework!',
   url: 'https://chornthorn.github.io',
-  baseUrl: '/',
+  baseUrl: '/getx-docs/',
   favicon: 'img/favicon/Comupter.ico',
   organizationName: 'chornthorn',
-  projectName: 'docs',
+  projectName: 'getx-docs',
   themeConfig: {
     image: 'img/icons8-flutter.svg',
     metadatas: [{ name: 'twitter:card', content: 'summary' }],
@@ -38,7 +38,7 @@ module.exports = {
         },
         {
           label: 'Tutorial',
-          to: 'tutorials/index',
+          to: 'index',
           position: 'right'
         },
         {
@@ -48,12 +48,12 @@ module.exports = {
         },
         {
           label: 'GitHub',
-          href: 'https://github.com/chornthorn',
+          href: 'https://github.com/chornthorn/getx-docs',
           position: 'right'
         },
         {
           label: 'Need help?',
-          to: 'introduction/getting-started#help-and-discussion',
+          href: 'https://github.com/chornthorn/getx-docs',
           position: 'right'
         }
       ]
@@ -70,7 +70,7 @@ module.exports = {
             },
             {
               label: 'Tutorial',
-              to: 'tutorials/index'
+              to: 'index'
             }
           ]
         },
@@ -79,7 +79,7 @@ module.exports = {
           items: [
             {
               label: 'Facebook Group',
-              href: 'https://www.facebook.com/groups/266998017828595'
+              href: 'http://stackoverflow.com/questions/tagged/flutter'
             },
             {
               label: 'Stack Overflow',
@@ -87,7 +87,7 @@ module.exports = {
             },
             {
               label: 'Feedback',
-              to: 'introduction/getting-started#help-and-discussion'
+              href: 'http://stackoverflow.com/questions/tagged/flutter'
             }
           ]
         },
@@ -106,7 +106,7 @@ module.exports = {
         src: 'img/icons8-google-code-bottom.svg',
         href: 'https://github.com/chornthorn/docs'
       },
-      copyright: `Copyright © 2021–${new Date().getFullYear()} Bong Thorn documentation authors.`
+      copyright: `Copyright © 2021–${new Date().getFullYear()} GetX documentation authors.`
     },
     algolia: {
       apiKey: 'c69d75c054317c41a123ab6315f31e0f',
