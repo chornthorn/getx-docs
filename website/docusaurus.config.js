@@ -1,8 +1,8 @@
 module.exports = {
-  title: "Flutter Starter Dev",
-  tagline: 'A simple open source for Flutter Application',
+  title: "Flutter GetX",
+  tagline: 'Fast, Stable, Extra-light and Powerful Flutter Framework!',
   url: 'https://chornthorn.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/',
   favicon: 'img/favicon/Comupter.ico',
   organizationName: 'chornthorn',
   projectName: 'docs',
@@ -25,15 +25,15 @@ module.exports = {
       isCloseable: false, // Defaults to `true`.
     },
     navbar: {
-      title: "Flutter Starter Dev",
+      title: "Flutter GetX",
       logo: {
-        alt: 'Flutter Logo',
+        alt: 'GetX Logo',
         src: 'img/icons8-google-code.svg'
       },
       items: [
         {
           label: 'Getting Started',
-          to: 'introduction/getting-started',
+          to: 'index',
           position: 'right'
         },
         {
@@ -66,7 +66,7 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'introduction/getting-started'
+              to: 'index'
             },
             {
               label: 'Tutorial',
