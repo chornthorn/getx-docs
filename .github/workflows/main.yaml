@@ -1,9 +1,18 @@
 name: main
 
-on: pull_request
+# run on pull requests and pushes to main
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
 
 jobs:
   build:
+    outputs:
+      build: ${{ steps.build.outputs.build }}
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +37,28 @@ jobs:
 
       - name: 👷 Build website
         run: npm run build
-# deploy to github pages
+
+  # deploy to github pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 Git Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: ⚙️ Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: 📦 Install Dependencies
+        run: npm ci
+
       - name: 🚀 Deploy to GitHub Pages
         uses: andstor/deploy-gh-pages@v2
         with:
