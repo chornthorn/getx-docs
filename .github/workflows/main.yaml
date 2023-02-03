@@ -28,3 +28,19 @@ jobs:
 
       - name: 👷 Build website
         run: npm run build
+# deploy to github pages
+      - name: 🚀 Deploy to GitHub Pages
+        uses: andstor/deploy-gh-pages@v2
+        with:
+          branch: gh-pages
+          folder: public
+          clean: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Deploy to GitHub Pages"
+      - name: 📝 Update README.md
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            🚀 Deployed to [GitHub Pages](https://andstor.github.io/andstor.github.io/)
