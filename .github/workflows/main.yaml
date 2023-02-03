@@ -66,4 +66,3 @@ jobs:
           publish_dir: ./build
           publish_branch: gh-pages
         if: ${{ github.ref == 'refs/heads/main' }}
-
