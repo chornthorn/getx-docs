@@ -70,8 +70,8 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Getx is a library that helps you to manage your app state, reactive
-        programming and User Interface (UI) to your Business Logic (Back-end) 
-        in a simple and intuitive way. 
+        programming and User Interface (UI) to your Business Logic (Back-end) in
+        a simple and intuitive way.
       </>
     ),
   },
@@ -99,9 +99,10 @@ const FeatureList: FeatureItem[] = [
     title: 'Get CLI',
     Svg: require('@site/static/img/pillar3.svg').default,
     description: (
-        <>
-          Get CLI is a tool that helps you to create your Getx projects in a simple and intuitive way.
-        </>
+      <>
+        Get CLI is a tool that helps you to create your Getx projects in a
+        simple and intuitive way.
+      </>
     ),
   },
   {
@@ -109,19 +110,21 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/pillar3.svg').default,
     description: (
       <>
-        GetConnect is an easy way to communicate from your back to your front with http or websockets.
-        </>
+        GetConnect is an easy way to communicate from your back to your front
+        with http or websockets.
+      </>
     ),
   },
   {
     title: 'Localizations',
     Svg: require('@site/static/img/pillar3.svg').default,
     description: (
-        <>
-          Getx is a library that helps you to manage your app localizations in a simple and intuitive way.
-        </>
+      <>
+        Getx is a library that helps you to manage your app localizations in a
+        simple and intuitive way.
+      </>
     ),
-  }
+  },
 ];
 
 function Feature({ title, Svg, description }: FeatureItem) {
