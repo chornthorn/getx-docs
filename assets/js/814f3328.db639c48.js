@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgetx_document=self.webpackChunkgetx_document||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Getx Documentation","permalink":"/getx-docs/blog/welcome-getx-v2"}]}')}}]);

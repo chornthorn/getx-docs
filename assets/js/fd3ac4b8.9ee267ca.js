@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgetx_document=self.webpackChunkgetx_document||[]).push([[741],{8373:e=>{e.exports=JSON.parse('{"permalink":"/getx-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

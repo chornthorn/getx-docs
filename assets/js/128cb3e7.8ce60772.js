@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgetx_document=self.webpackChunkgetx_document||[]).push([[744],{5e3:e=>{e.exports=JSON.parse('{"label":"flutter","permalink":"/getx-docs/blog/tags/flutter","allTagsPath":"/getx-docs/blog/tags","count":1}')}}]);

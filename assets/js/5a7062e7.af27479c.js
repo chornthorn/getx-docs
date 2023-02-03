@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgetx_document=self.webpackChunkgetx_document||[]).push([[295],{1941:e=>{e.exports=JSON.parse('{"label":"getx","permalink":"/getx-docs/blog/tags/getx","allTagsPath":"/getx-docs/blog/tags","count":1}')}}]);
