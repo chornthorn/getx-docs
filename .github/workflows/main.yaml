@@ -33,7 +33,7 @@ jobs:
         uses: andstor/deploy-gh-pages@v2
         with:
           branch: gh-pages
-          folder: public
+          folder: build
           clean: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: "Deploy to GitHub Pages"
