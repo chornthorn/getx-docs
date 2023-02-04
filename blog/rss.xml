@@ -4,7 +4,7 @@
         <title>Flutter Getx Documentation Blog</title>
         <link>https://chornthorn.github.io/getx-docs/blog</link>
         <description>Flutter Getx Documentation Blog</description>
-        <lastBuildDate>Fri, 03 Feb 2023 19:20:50 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Feb 2023 04:41:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Welcome to Getx Documentation]]></title>
             <link>https://chornthorn.github.io/getx-docs/blog/welcome-getx-v2</link>
             <guid>https://chornthorn.github.io/getx-docs/blog/welcome-getx-v2</guid>
-            <pubDate>Fri, 03 Feb 2023 19:20:50 GMT</pubDate>
+            <pubDate>Sat, 04 Feb 2023 04:41:48 GMT</pubDate>
             <description><![CDATA[This is my first post on Docusaurus 2.]]></description>
             <category>flutter</category>
             <category>getx</category>
