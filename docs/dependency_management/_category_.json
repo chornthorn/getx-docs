@@ -1,0 +1,9 @@
+{
+  "label": "Dependency Management",
+  "position": 5,
+  "link": {
+    "title": "Dependency Management",
+    "type": "generated-index",
+    "description": "In this section, you will learn how to manage dependencies in your application."
+  }
+}
