@@ -1,0 +1,9 @@
+{
+  "label": "Route Management",
+  "position": 4,
+  "link": {
+    "title": "Route Management",
+    "type": "generated-index",
+    "description": "In this section, you will learn how to manage routes in your application."
+  }
+}
