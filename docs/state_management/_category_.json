@@ -1,0 +1,9 @@
+{
+  "label": "State Management",
+  "position": 3,
+  "link": {
+    "title": "State Management",
+    "type": "generated-index",
+    "description": "In this section, you will learn how to manage the state of your application."
+  }
+}
