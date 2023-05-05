@@ -18,7 +18,7 @@
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint ."
   },
   "dependencies": {
-    "@docusaurus/core": "2.3.1",
+    "@docusaurus/core": "2.4.0",
     "@docusaurus/plugin-content-pages": "^2.3.1",
     "@docusaurus/preset-classic": "2.3.1",
     "@mdx-js/react": "^2.3.0",
